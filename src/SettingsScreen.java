@@ -87,6 +87,8 @@ public class SettingsScreen extends JFrame implements ActionListener {
 
         buttonPanel.add(jb);
         ctx.add(buttonPanel);
+
+        revalidate();
     }
 
     @Override

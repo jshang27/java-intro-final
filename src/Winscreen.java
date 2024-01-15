@@ -33,7 +33,6 @@ public class Winscreen extends JFrame {
         win.setPreferredSize(new Dimension(200, 30));
         win.setHorizontalAlignment(SwingConstants.CENTER);
         win.setFont(new Font(getFont().getName(), Font.PLAIN, 30));
-        win.setForeground(getBackground());
         ctx.add(win, BorderLayout.CENTER);
     }
 }
